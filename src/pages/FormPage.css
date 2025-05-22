@@ -1,0 +1,77 @@
+/* FormPage.css */
+.form-container {
+  max-width: 56rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.form-section {
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.form-section:hover {
+  transform: translateY(-2px);
+}
+
+.form-section-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 0.025em;
+  padding-bottom: 0.5rem;
+}
+
+.phone-input-container {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.phone-code-select {
+  flex: 0 0 8rem;
+  border-radius: 0.75rem;
+  padding: 0.6rem 1rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.phone-code-select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(129, 140, 248, 0.5);
+}
+
+.phone-number-input {
+  flex: 1;
+  min-width: 0;
+  border-radius: 0.75rem;
+  padding: 0.6rem 1rem;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.phone-number-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(129, 140, 248, 0.5);
+}
+
+.error-input {
+  border-color: #f43f5e;
+  box-shadow: 0 0 0 3px rgba(244, 63, 94, 0.2);
+}
+
+.error-message {
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+  font-weight: 500;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
