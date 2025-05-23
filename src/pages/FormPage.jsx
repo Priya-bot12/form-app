@@ -131,7 +131,7 @@ const FormPage = () => {
             Registration Form
           </h1>
           <p className="mt-2 text-sm text-indigo-700">
-            Please fill in all required fields marked with *
+            Please filll in all required fields marked with *
           </p>
           <p className="mt-2 text-sm">
             Link:{" "}
