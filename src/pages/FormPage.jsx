@@ -133,6 +133,18 @@ const FormPage = () => {
           <p className="mt-2 text-sm text-indigo-700">
             Please fill in all required fields marked with *
           </p>
+          <p className="mt-2 text-sm">
+            Link:{" "}
+            <a
+              href="https://github.com/Priya-bot12/form-app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline"
+            >
+              https://github.com/Priya-bot12/form-app
+            </a>
+          </p>
+
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-8">
